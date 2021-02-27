@@ -10,7 +10,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="src/myScript.js"></script>
    <title>Cookbook | Dinner</title>
   </head>
   <body>
@@ -36,11 +35,19 @@
       </div>
     </section>
 
-    <section class="category-button">
-        <button class="button"><a href="#filter">Filter 1</a></button>
-        <button class="button"><a href="#filter">Filter 2</a></button>
-        <button class="button"><a href="#filter">Filter 3</a></button>
-      </section>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('vegetarian')"> Vegetarian</button>
+      <button class="btn" onclick="filterSelection('vegan')"> Vegan</button>
+      <button class="btn" onclick="filterSelection('meat')"> Meat</button>
+      <button class="btn" onclick="filterSelection('fish')"> Fish</button>
+    </div>
+
+    <!--<section class="category-button">
+      <button class="button"><a href="#filter">Filter 1</a></button>
+      <button class="button"><a href="#filter">Filter 2</a></button>
+      <button class="button"><a href="#filter">Filter 3</a></button>
+    </section>-->
 
     <section class="recipes__cards">
       <div class="card">
@@ -76,6 +83,7 @@
     <div class="footer">
       <p>© 2021</p>
     </div>
+    <script src="src/myScript.js"></script>
 
   </body>
 </html>

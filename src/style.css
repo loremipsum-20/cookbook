@@ -120,6 +120,37 @@ table {
   }
 }
 
+/*Filter from W3/*
+/* Style the buttons */
+#myBtnContainer {
+  margin-top: 10px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: #e0e9f5;
+  cursor: pointer;
+  padding: 8px 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #1d3557;
+  color: white;
+}
+
+.btn.active {
+  background-color: #1d3557;
+  color: white;
+}
+
 /*General elements*/
 .footer {
   position: fixed;
@@ -292,6 +323,7 @@ hr {
 .icon__text {
   width: 33%;
   line-height: 25px;
+  display: flex;
 }
 
 .instruction {
