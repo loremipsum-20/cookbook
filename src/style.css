@@ -235,7 +235,12 @@ hr:not([size]).line {
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #1d3557;
+  /*background-color: #1d3557;*/
+}
+
+hr {
+   background-color: #e0e9f5;
+   opacity: 1;
 }
 
 .recipes__picture {
