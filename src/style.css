@@ -121,6 +121,34 @@ table {
 }
 
 /*Filter from W3/*
+
+/*CATEGORY*/
+
+.recipes__cards {
+  margin-bottom: 60px;
+}
+.filterCard {
+  display: none;
+}
+
+.card {
+  text-align: center;
+  max-width: 280px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+}
+.show {
+  display: block;
+}
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
 /* Style the buttons */
 #myBtnContainer {
   margin-top: 10px;
@@ -150,6 +178,7 @@ table {
   background-color: #1d3557;
   color: white;
 }
+
 
 /*General elements*/
 .footer {
@@ -206,23 +235,7 @@ h2 {
 }
 
 
-/*CATEGORY*/
 
-.recipes__cards {
-  margin-bottom: 60px;
-}
-
-.card {
-  text-align: center;
-  max-width: 280px;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
-.card a {
-  color: black;
-  text-decoration: none;
-}
 
 /*RECIPES */
 .recipes {
